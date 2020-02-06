@@ -4,9 +4,7 @@ using namespace std;
 
 int smallestNum(int A[], int s, int index) {
 	int currentNumber, smallestNumber;
-	//Allows us to find the size of the array
-	int size = sizeof(A[s]) / sizeof(A[0]);
-
+	
 	smallestNumber = A[index];
 
 	for (int i = index; i < s; i++) {
@@ -14,6 +12,7 @@ int smallestNum(int A[], int s, int index) {
 
 		if (currentNumber < smallestNumber) {
 			smallestNumber = currentNumber;
+			
 		}
 	}
 

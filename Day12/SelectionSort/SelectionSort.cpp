@@ -3,20 +3,17 @@
 using namespace std;
 
 int smallestNum(int A[], int s, int index) {
-	int currentNumber, smallestNumber;
+	int indSmall = index;
 	
-	smallestNumber = A[index];
 
 	for (int i = index; i < s; i++) {
-		currentNumber = A[i];
 
-		if (currentNumber < smallestNumber) {
-			smallestNumber = currentNumber;
-			
+		if (A[i] < A[indSmall]) {
+			indSmall = i;
 		}
 	}
 
-	return smallestNumber;
+	return indSmall;
 }
 
 int main()
@@ -35,7 +32,7 @@ int main()
 	}
 
 	int smallest = smallestNum(array, SIZE, index);
-	cout << "The smallest number starting from index " << index << " is " << smallest << endl;
+	cout << "The index of the smallest number starting from index " << index << " is " << smallest << endl;
 
 	system("pause");
 	return 0;

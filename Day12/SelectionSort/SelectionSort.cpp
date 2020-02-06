@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int smallestNum(int A[], int s, int index) {
+int smallestNumIndex(int A[], int s, int index) {
 	int indSmall = index;
 	
 
@@ -14,6 +14,11 @@ int smallestNum(int A[], int s, int index) {
 	}
 
 	return indSmall;
+}
+
+
+void selectionSort(int A[], int s) {
+
 }
 
 int main()
@@ -31,7 +36,7 @@ int main()
 		cout << "Array[" << i << "] = " << array[i] << endl;
 	}
 
-	int smallest = smallestNum(array, SIZE, index);
+	int smallest = smallestNumIndex(array, SIZE, index);
 	cout << "The index of the smallest number starting from index " << index << " is " << smallest << endl;
 
 	system("pause");

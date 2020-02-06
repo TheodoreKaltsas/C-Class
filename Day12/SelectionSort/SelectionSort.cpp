@@ -18,7 +18,13 @@ int smallestNumIndex(int A[], int s, int index) {
 
 
 void selectionSort(int A[], int s) {
+	for (int i = 0; i < s - 1; i++) {
+		int indS = smallestNumIndex(A, s, i);
 
+		int temp = A[i];
+		A[i] = A[indS];
+		A[indS] = temp;
+	}
 }
 
 int main()

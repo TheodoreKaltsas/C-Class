@@ -1,0 +1,5 @@
+﻿  PrimeNumberCalculator.cpp
+C:\Users\nycbr\Desktop\Ted\Day12\PrimeNumberCalculator\PrimeNumberCalculator.cpp(8,19): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\nycbr\Desktop\Ted\Day12\PrimeNumberCalculator\PrimeNumberCalculator.cpp(56,7): warning C4101: 'response': unreferenced local variable
+C:\Users\nycbr\Desktop\Ted\Day12\PrimeNumberCalculator\PrimeNumberCalculator.cpp(55,6): warning C4101: 'num': unreferenced local variable
+  PrimeNumberCalculator.vcxproj -> C:\Users\nycbr\Desktop\Ted\Day12\x64\Debug\PrimeNumberCalculator.exe

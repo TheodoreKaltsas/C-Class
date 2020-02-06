@@ -1,0 +1,3 @@
+﻿  SortingNumbers.cpp
+LINK : fatal error LNK1168: cannot open C:\Users\nycbr\Desktop\Ted\Day12\x64\Debug\SortingNumbers.exe for writing
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(847,5): error MSB6006: "link.exe" exited with code 1168.

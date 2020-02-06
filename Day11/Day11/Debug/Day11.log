@@ -1,0 +1,3 @@
+﻿  Day11.cpp
+C:\Users\nycbr\Desktop\Ted\Day11\Day11\Day11.cpp(42,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Day11.vcxproj -> C:\Users\nycbr\Desktop\Ted\Day11\Debug\Day11.exe

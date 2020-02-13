@@ -1,0 +1,3 @@
+﻿  ProbabilityQues(p.300).cpp
+C:\Users\b332-u20\Desktop\Theodore Kaltsas\Day6\ProbabilityQues(p.300)\ProbabilityQues(p.300).cpp(14,6): error C2065: 's': undeclared identifier
+C:\Users\b332-u20\Desktop\Theodore Kaltsas\Day6\ProbabilityQues(p.300)\ProbabilityQues(p.300).cpp(15,3): error C2144: syntax error: 'double' should be preceded by ';'

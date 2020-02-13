@@ -1,0 +1,3 @@
+﻿  Gambling101.cpp
+C:\Users\nycbr\Desktop\Ted\GuessingGame\Gambling101\Gambling101.cpp(8,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Gambling101.vcxproj -> C:\Users\nycbr\Desktop\Ted\GuessingGame\Debug\Gambling101.exe

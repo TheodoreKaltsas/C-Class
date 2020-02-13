@@ -1,0 +1,10 @@
+﻿  Files.cpp
+C:\Users\nycbr\Desktop\Ted\Day14\Files\Files.cpp(9,20): warning C4129: 'D': unrecognized character escape sequence
+C:\Users\nycbr\Desktop\Ted\Day14\Files\Files.cpp(9,20): warning C4129: 'T': unrecognized character escape sequence
+C:\Users\nycbr\Desktop\Ted\Day14\Files\Files.cpp(9,20): warning C4129: 'F': unrecognized character escape sequence
+C:\Users\nycbr\Desktop\Ted\Day14\Files\Files.cpp(9,20): warning C4129: 'o': unrecognized character escape sequence
+C:\Users\nycbr\Desktop\Ted\Day14\Files\Files.cpp(30,21): warning C4129: 'D': unrecognized character escape sequence
+C:\Users\nycbr\Desktop\Ted\Day14\Files\Files.cpp(30,21): warning C4129: 'T': unrecognized character escape sequence
+C:\Users\nycbr\Desktop\Ted\Day14\Files\Files.cpp(30,21): warning C4129: 'F': unrecognized character escape sequence
+C:\Users\nycbr\Desktop\Ted\Day14\Files\Files.cpp(30,21): warning C4129: 'V': unrecognized character escape sequence
+  Files.vcxproj -> C:\Users\nycbr\Desktop\Ted\Day14\Debug\Files.exe

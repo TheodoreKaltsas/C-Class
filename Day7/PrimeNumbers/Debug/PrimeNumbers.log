@@ -1,0 +1,3 @@
+﻿  PrimeNumbers.cpp
+C:\Users\b332-u20\Desktop\Theodore Kaltsas\Day7\PrimeNumbers\PrimeNumbers.cpp(15,20): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  PrimeNumbers.vcxproj -> C:\Users\b332-u20\Desktop\Theodore Kaltsas\Day7\Debug\PrimeNumbers.exe

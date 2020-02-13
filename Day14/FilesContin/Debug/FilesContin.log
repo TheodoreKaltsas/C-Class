@@ -1,0 +1,8 @@
+﻿  FilesContin.cpp
+C:\Users\nycbr\Desktop\Ted\Day14\FilesContin\FilesContin.cpp(24,9): warning C4101: 'timeOne': unreferenced local variable
+C:\Users\nycbr\Desktop\Ted\Day14\FilesContin\FilesContin.cpp(23,6): warning C4101: 'distanceOne': unreferenced local variable
+C:\Users\nycbr\Desktop\Ted\Day14\FilesContin\FilesContin.cpp(24,27): warning C4101: 'timeThree': unreferenced local variable
+C:\Users\nycbr\Desktop\Ted\Day14\FilesContin\FilesContin.cpp(23,32): warning C4101: 'distanceThree': unreferenced local variable
+C:\Users\nycbr\Desktop\Ted\Day14\FilesContin\FilesContin.cpp(23,19): warning C4101: 'distanceTwo': unreferenced local variable
+C:\Users\nycbr\Desktop\Ted\Day14\FilesContin\FilesContin.cpp(24,18): warning C4101: 'timeTwo': unreferenced local variable
+  FilesContin.vcxproj -> C:\Users\nycbr\Desktop\Ted\Day14\Debug\FilesContin.exe

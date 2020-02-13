@@ -31,19 +31,22 @@ int main()
 {
 	int index;
 	const int SIZE = 10;
-	int array[SIZE] = { 9, 4, -10, 1, -4, -9, 8, -3, 12, 3 };
+	int array[SIZE];
 
-	cout << "Give me an index to count from up to the end of the array and I will tell you the smallest number.\n";
-	cout << "Start from index ";
-	cin >> index;
+	cout << "Input 10 numbers for your array that are not in order" << endl;
 
-	cout << "The array is as follows: " << endl;
+	for (int i = 0; i < SIZE; i++) {
+		cout << "Array[" << i << "] = ";
+		cin >> array[i];
+	}
+
+	cout << endl;
+	selectionSort(array, SIZE);
+
 	for (int i = 0; i < SIZE; i++) {
 		cout << "Array[" << i << "] = " << array[i] << endl;
 	}
 
-	int smallest = smallestNumIndex(array, SIZE, index);
-	cout << "The index of the smallest number starting from index " << index << " is " << smallest << endl;
 
 	system("pause");
 	return 0;

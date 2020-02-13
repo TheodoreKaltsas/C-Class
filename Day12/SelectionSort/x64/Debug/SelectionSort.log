@@ -1,2 +1,3 @@
 ﻿  SelectionSort.cpp
+C:\Users\nycbr\Desktop\Ted\Day12\SelectionSort\SelectionSort.cpp(32,6): warning C4101: 'index': unreferenced local variable
   SelectionSort.vcxproj -> C:\Users\nycbr\Desktop\Ted\Day12\x64\Debug\SelectionSort.exe

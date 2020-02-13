@@ -28,12 +28,23 @@ int main()
 	ofstream outFile;
 
 	cout << "Welcome to Ted's fantastic Text editor!" << endl;
-	cout << "Insert the path you'd like to create your file in (i.e.: C:\\thisDir\\myWork\\test.txt)";
-	cin >> filePath;
+	cout << "Insert the path you'd like to create your file in (i.e.: C:\\thisDir\\myWork\\test.txt): ";
+	getline(cin, filePath);
 
 	outFile.open(filePath);
 	if (!outFile.is_open()) {
 		cout << "The file in question could not be created." << endl;
+		exit(1);
 	}
 
+	cout << "Type what you want to text then end it with . and an empty line." << endl;
+	string line;
+
+	while (line != ".") {
+		getline(cin, line);
+		outFile << line << endl;
+	}
+
+	outFile.close();
+	return 0;
 }
